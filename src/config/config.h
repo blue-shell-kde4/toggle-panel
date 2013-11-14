@@ -17,8 +17,9 @@ public:
         InvalidPanelMode = -1,
         NormalPanelMode = 0,
         AutoHideMode = 1,
-        LetWindowsCoverMode = 2,
-        WindowsGoBelowMode = 3
+        HiddenMode = 2,
+        LetWindowsCoverMode = 3,
+        WindowsGoBelowMode = 4
     };
 
     explicit Config(QObject *parent = 0);

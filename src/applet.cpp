@@ -167,8 +167,8 @@ void Applet::updateIcon()
         return;
     }
 
-    const bool hideOnNextClick = (m_clicked && m_config->getMode(0) == Config::AutoHideMode) ||
-            (!m_clicked && m_config->getMode(1) == Config::AutoHideMode);
+    const bool hideOnNextClick = (m_clicked && (m_config->getMode(0) == Config::AutoHideMode || m_config->getMode(0) == Config::HiddenMode)) ||
+            (!m_clicked && (m_config->getMode(1) == Config::AutoHideMode || m_config->getMode(1) == Config::HiddenMode));
     QString icon;
     switch(location()) {
     case Plasma::LeftEdge:
@@ -287,7 +287,7 @@ void Applet::setPanelMode(int mode)
     m_clicked = (mode == m_config->getMode(1));
     updateIcon();
 
-    if (mode != (int) Config::AutoHideMode) {
+    if (mode != (int) Config::AutoHideMode && mode != (int) Config::HiddenMode) {
         QTimer::singleShot(1500, this, SLOT(ensurePanelIsVisible()));
     }
 

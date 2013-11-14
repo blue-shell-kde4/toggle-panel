@@ -38,11 +38,13 @@ GeneralConfig::GeneralConfig(QWidget *parent)
 
     ui->defaultModeCombo->addItem(i18n("Always visible"), Config::NormalPanelMode);
     ui->defaultModeCombo->addItem(i18n("Auto-hide"), Config::AutoHideMode);
+    ui->defaultModeCombo->addItem(i18n("Hidden"), Config::HiddenMode);
     ui->defaultModeCombo->addItem(i18n("Windows can cover"), Config::LetWindowsCoverMode);
     ui->defaultModeCombo->addItem(i18n("Windows go below"), Config::WindowsGoBelowMode);
 
     ui->onClickCombo->addItem(i18n("Always visible"), Config::NormalPanelMode);
     ui->onClickCombo->addItem(i18n("Auto-hide"), Config::AutoHideMode);
+    ui->onClickCombo->addItem(i18n("Hidden"), Config::HiddenMode);
     ui->onClickCombo->addItem(i18n("Windows can cover"), Config::LetWindowsCoverMode);
     ui->onClickCombo->addItem(i18n("Windows go below"), Config::WindowsGoBelowMode);
 

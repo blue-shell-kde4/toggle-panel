@@ -147,7 +147,7 @@ void Config::readConfig(const KConfigGroup *cfg)
 {
 
     setMode(0, (Config::Mode) cfg->readEntry("Mode0", (int) Config::NormalPanelMode));
-    setMode(1, (Config::Mode) cfg->readEntry("Mode1", (int) Config::AutoHideMode));
+    setMode(1, (Config::Mode) cfg->readEntry("Mode1", (int) Config::HiddenMode));
 
     setIcon(0, cfg->readEntry("Icon0", QString()));
     setIcon(1, cfg->readEntry("Icon1", QString()));
