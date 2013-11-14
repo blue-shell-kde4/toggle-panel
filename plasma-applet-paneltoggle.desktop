@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Panel Toggle
+Name[de]=Kontrollleisten Umschalter
+
+Comment=Visibility toggle for panels
+Comment[de]=Sichtbarkeits Umschalter für Kontrollleisten
+
+Icon=arrow-down
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-Library=plasma_applet_paneltoggle
+X-KDE-PluginInfo-Author=Kai Dombrowe
+X-KDE-PluginInfo-Email=just89@gmx.de
+X-KDE-PluginInfo-Name=paneltoggleapplet
+X-KDE-PluginInfo-Version=0.2
+X-KDE-PluginInfo-Website=http://plasma.kde.org/
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-NotificationArea=true

@@ -1,0 +1,132 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kai Dombrowe <just89@gmx.de>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-16 15:55+0100\n"
+"PO-Revision-Date: 2013-01-16 15:50+0100\n"
+"Last-Translator: Kai Dombrowe <just89@gmx.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: file: src/ui/appearanceconfig.ui:31
+#. i18n: ectx: property (text), widget (QRadioButton, defaultIconsRadio)
+#: auto_build/src/ui_appearanceconfig.h:200 po/rc.cpp:3 rc.cpp:3
+msgid "Default"
+msgstr "Standard"
+
+#. i18n: file: src/ui/appearanceconfig.ui:41
+#. i18n: ectx: property (text), widget (QRadioButton, customIconsRadio)
+#: auto_build/src/ui_appearanceconfig.h:201 po/rc.cpp:6 rc.cpp:6
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#. i18n: file: src/ui/appearanceconfig.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, svgIconsRadio)
+#. i18n: file: src/ui/appearanceconfig.ui:125
+#. i18n: ectx: property (title), widget (QGroupBox, svgGroup)
+#. i18n: file: src/ui/appearanceconfig.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, svgIconsRadio)
+#. i18n: file: src/ui/appearanceconfig.ui:125
+#. i18n: ectx: property (title), widget (QGroupBox, svgGroup)
+#: auto_build/src/ui_appearanceconfig.h:202
+#: auto_build/src/ui_appearanceconfig.h:207 po/rc.cpp:9 po/rc.cpp:24 rc.cpp:9
+#: rc.cpp:24
+msgid "SVG"
+msgstr "SVG"
+
+#. i18n: file: src/ui/appearanceconfig.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: auto_build/src/ui_appearanceconfig.h:203 po/rc.cpp:12 rc.cpp:12
+msgid "Icons:"
+msgstr "Symbole:"
+
+#. i18n: file: src/ui/appearanceconfig.ui:70
+#. i18n: ectx: property (title), widget (QGroupBox, iconGroup)
+#: auto_build/src/ui_appearanceconfig.h:204 po/rc.cpp:15 rc.cpp:15
+msgid "Custom Icons"
+msgstr "Benutzerdefinierte Symbole"
+
+#. i18n: file: src/ui/appearanceconfig.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: auto_build/src/ui_appearanceconfig.h:205 po/rc.cpp:18 rc.cpp:18
+msgid "Icon for mode 2:"
+msgstr "Symbol für Modus 2:"
+
+#. i18n: file: src/ui/appearanceconfig.ui:102
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: auto_build/src/ui_appearanceconfig.h:206 po/rc.cpp:21 rc.cpp:21
+msgid "Icon for mode 1:"
+msgstr "Symbol für Modus 1:"
+
+#. i18n: file: src/ui/appearanceconfig.ui:134
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: auto_build/src/ui_appearanceconfig.h:208 po/rc.cpp:27 rc.cpp:27
+msgid "SVG File:"
+msgstr "SVG Datei:"
+
+#. i18n: file: src/ui/appearanceconfig.ui:144
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: auto_build/src/ui_appearanceconfig.h:209 po/rc.cpp:30 rc.cpp:30
+msgid "Element for mode 1:"
+msgstr "Element für Modus 1:"
+
+#. i18n: file: src/ui/appearanceconfig.ui:154
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: auto_build/src/ui_appearanceconfig.h:210 po/rc.cpp:33 rc.cpp:33
+msgid "Element for mode 2:"
+msgstr "Element für Modus 2:"
+
+#. i18n: file: src/ui/generalconfig.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: auto_build/src/ui_generalconfig.h:77 po/rc.cpp:36 rc.cpp:36
+msgid "First Mode:"
+msgstr "Erster Modus:"
+
+#. i18n: file: src/ui/generalconfig.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: auto_build/src/ui_generalconfig.h:78 po/rc.cpp:39 rc.cpp:39
+msgid "Second Mode:"
+msgstr "Zweiter Modus:"
+
+#: po/rc.cpp:40 rc.cpp:40
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kai Dombrowe"
+
+#: po/rc.cpp:41 rc.cpp:41
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "just89@gmx.de"
+
+#: src/config/appearanceconfig.cpp:60
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: src/config/generalconfig.cpp:39 src/config/generalconfig.cpp:44
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+#: src/config/generalconfig.cpp:40 src/config/generalconfig.cpp:45
+msgid "Auto-hide"
+msgstr "Automatisch ausblenden"
+
+#: src/config/generalconfig.cpp:41 src/config/generalconfig.cpp:46
+msgid "Windows can cover"
+msgstr "Fenster können die Kontrollleiste überdecken"
+
+#: src/config/generalconfig.cpp:42 src/config/generalconfig.cpp:47
+msgid "Windows go below"
+msgstr "Fenster rutschen unter die Kontrollleiste"
+
+#: src/config/generalconfig.cpp:66
+msgid "General"
+msgstr "Allgemein"
