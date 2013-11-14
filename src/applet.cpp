@@ -286,11 +286,6 @@ void Applet::setPanelMode(int mode)
 
     m_clicked = (mode == m_config->getMode(1));
     updateIcon();
-
-    if (mode != (int) Config::AutoHideMode && mode != (int) Config::HiddenMode) {
-        QTimer::singleShot(1500, this, SLOT(ensurePanelIsVisible()));
-    }
-
 }
 
 
