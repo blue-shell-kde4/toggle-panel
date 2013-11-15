@@ -71,9 +71,8 @@ void Applet::loadConfig()
     KConfigGroup cfg = config();
 
     m_config->readConfig(&cfg);
-    if (m_config->isFirstStart()) {
-        setConfigurationRequired(true);
-    }
+
+    setConfigurationRequired(m_config->isFirstStart());
 
 }
 
@@ -120,8 +119,7 @@ void Applet::init()
 
 void Applet::configChanged()
 {
-
-    setConfigurationRequired(false);
+    loadConfig();
 
     // restore default
     m_clicked = true;
